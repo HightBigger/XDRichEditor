@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD2AD621256E54CE0041C3B0 /* XDColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2AD620256E54CE0041C3B0 /* XDColorPicker.m */; };
+		AD2AD670256F85580041C3B0 /* XDColorRectangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2AD66F256F85580041C3B0 /* XDColorRectangleView.m */; };
+		AD2AD679256F9D9F0041C3B0 /* XDColorSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2AD678256F9D9F0041C3B0 /* XDColorSlider.m */; };
+		AD2AD67D2570AD5B0041C3B0 /* XDColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2AD67C2570AD5B0041C3B0 /* XDColorPickerViewController.m */; };
+		AD2AD6832570E2570041C3B0 /* XDFontPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2AD6822570E2570041C3B0 /* XDFontPickerViewController.m */; };
+		AD2AD6872570E2DC0041C3B0 /* XDFontPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2AD6862570E2DC0041C3B0 /* XDFontPicker.m */; };
+		AD2AD68E2570F7760041C3B0 /* XDFontSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2AD68D2570F7750041C3B0 /* XDFontSlider.m */; };
+		AD849EEA2566128A00705625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD849EE92566128A00705625 /* AppDelegate.m */; };
+		AD849EF02566128A00705625 /* XDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD849EEF2566128A00705625 /* XDViewController.m */; };
+		AD849EF32566128A00705625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD849EF12566128A00705625 /* Main.storyboard */; };
+		AD849EF52566128A00705625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD849EF42566128A00705625 /* Assets.xcassets */; };
+		AD849EF82566128A00705625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD849EF62566128A00705625 /* LaunchScreen.storyboard */; };
+		AD849EFB2566128A00705625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD849EFA2566128A00705625 /* main.m */; };
+		AD84A240256B909900705625 /* XDRichEditor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD84A231256B909900705625 /* XDRichEditor.bundle */; };
+		AD84A243256B909900705625 /* XDRichEditorTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD84A238256B909900705625 /* XDRichEditorTextView.m */; };
+		AD84A244256B909900705625 /* XDRichTextObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AD84A23A256B909900705625 /* XDRichTextObject.m */; };
+		AD84A245256B909900705625 /* XDRichInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD84A23B256B909900705625 /* XDRichInputAccessoryView.m */; };
+		AD84A246256B909900705625 /* XDRichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = AD84A23C256B909900705625 /* XDRichTextEditor.m */; };
+		AD84A247256B909900705625 /* XDHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AD84A23E256B909900705625 /* XDHTMLParser.m */; };
+		AD84A24E256B920B00705625 /* UIColor+XDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AD84A24D256B920B00705625 /* UIColor+XDExtension.m */; };
+		AD84A253256B924400705625 /* UIImage+XDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AD84A252256B924400705625 /* UIImage+XDExtension.m */; };
+		AD84A25F256BAD4B00705625 /* XDOCEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD84A25E256BAD4B00705625 /* XDOCEditorViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD2AD61F256E54CE0041C3B0 /* XDColorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDColorPicker.h; sourceTree = "<group>"; };
+		AD2AD620256E54CE0041C3B0 /* XDColorPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDColorPicker.m; sourceTree = "<group>"; };
+		AD2AD66E256F85580041C3B0 /* XDColorRectangleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDColorRectangleView.h; sourceTree = "<group>"; };
+		AD2AD66F256F85580041C3B0 /* XDColorRectangleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDColorRectangleView.m; sourceTree = "<group>"; };
+		AD2AD677256F9D9F0041C3B0 /* XDColorSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDColorSlider.h; sourceTree = "<group>"; };
+		AD2AD678256F9D9F0041C3B0 /* XDColorSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDColorSlider.m; sourceTree = "<group>"; };
+		AD2AD67B2570AD5B0041C3B0 /* XDColorPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDColorPickerViewController.h; sourceTree = "<group>"; };
+		AD2AD67C2570AD5B0041C3B0 /* XDColorPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDColorPickerViewController.m; sourceTree = "<group>"; };
+		AD2AD6812570E2570041C3B0 /* XDFontPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDFontPickerViewController.h; sourceTree = "<group>"; };
+		AD2AD6822570E2570041C3B0 /* XDFontPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDFontPickerViewController.m; sourceTree = "<group>"; };
+		AD2AD6852570E2DC0041C3B0 /* XDFontPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDFontPicker.h; sourceTree = "<group>"; };
+		AD2AD6862570E2DC0041C3B0 /* XDFontPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDFontPicker.m; sourceTree = "<group>"; };
+		AD2AD68C2570F7750041C3B0 /* XDFontSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDFontSlider.h; sourceTree = "<group>"; };
+		AD2AD68D2570F7750041C3B0 /* XDFontSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDFontSlider.m; sourceTree = "<group>"; };
+		AD849EE52566128A00705625 /* XDRichEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDRichEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD849EE82566128A00705625 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD849EE92566128A00705625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD849EEE2566128A00705625 /* XDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDViewController.h; sourceTree = "<group>"; };
+		AD849EEF2566128A00705625 /* XDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDViewController.m; sourceTree = "<group>"; };
+		AD849EF22566128A00705625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD849EF42566128A00705625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD849EF72566128A00705625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD849EF92566128A00705625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD849EFA2566128A00705625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD84A230256B909900705625 /* XDRichInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDRichInputAccessoryView.h; sourceTree = "<group>"; };
+		AD84A231256B909900705625 /* XDRichEditor.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XDRichEditor.bundle; sourceTree = "<group>"; };
+		AD84A232256B909900705625 /* XDRichTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDRichTextEditor.h; sourceTree = "<group>"; };
+		AD84A238256B909900705625 /* XDRichEditorTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRichEditorTextView.m; sourceTree = "<group>"; };
+		AD84A239256B909900705625 /* XDHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDHTMLParser.h; sourceTree = "<group>"; };
+		AD84A23A256B909900705625 /* XDRichTextObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRichTextObject.m; sourceTree = "<group>"; };
+		AD84A23B256B909900705625 /* XDRichInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRichInputAccessoryView.m; sourceTree = "<group>"; };
+		AD84A23C256B909900705625 /* XDRichTextEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRichTextEditor.m; sourceTree = "<group>"; };
+		AD84A23D256B909900705625 /* XDRichTextObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDRichTextObject.h; sourceTree = "<group>"; };
+		AD84A23E256B909900705625 /* XDHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDHTMLParser.m; sourceTree = "<group>"; };
+		AD84A23F256B909900705625 /* XDRichEditorTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDRichEditorTextView.h; sourceTree = "<group>"; };
+		AD84A24A256B914500705625 /* XDMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDMacros.h; sourceTree = "<group>"; };
+		AD84A24C256B920B00705625 /* UIColor+XDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+XDExtension.h"; sourceTree = "<group>"; };
+		AD84A24D256B920B00705625 /* UIColor+XDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XDExtension.m"; sourceTree = "<group>"; };
+		AD84A251256B924400705625 /* UIImage+XDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XDExtension.h"; sourceTree = "<group>"; };
+		AD84A252256B924400705625 /* UIImage+XDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XDExtension.m"; sourceTree = "<group>"; };
+		AD84A25D256BAD4B00705625 /* XDOCEditorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDOCEditorViewController.h; sourceTree = "<group>"; };
+		AD84A25E256BAD4B00705625 /* XDOCEditorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDOCEditorViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD849EE22566128A00705625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD2AD61E256E54B40041C3B0 /* XDColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				AD2AD67B2570AD5B0041C3B0 /* XDColorPickerViewController.h */,
+				AD2AD67C2570AD5B0041C3B0 /* XDColorPickerViewController.m */,
+				AD2AD61F256E54CE0041C3B0 /* XDColorPicker.h */,
+				AD2AD620256E54CE0041C3B0 /* XDColorPicker.m */,
+				AD2AD66E256F85580041C3B0 /* XDColorRectangleView.h */,
+				AD2AD66F256F85580041C3B0 /* XDColorRectangleView.m */,
+				AD2AD677256F9D9F0041C3B0 /* XDColorSlider.h */,
+				AD2AD678256F9D9F0041C3B0 /* XDColorSlider.m */,
+			);
+			path = XDColorPicker;
+			sourceTree = "<group>";
+		};
+		AD2AD6802570E2360041C3B0 /* XDFontPicker */ = {
+			isa = PBXGroup;
+			children = (
+				AD2AD6812570E2570041C3B0 /* XDFontPickerViewController.h */,
+				AD2AD6822570E2570041C3B0 /* XDFontPickerViewController.m */,
+				AD2AD6852570E2DC0041C3B0 /* XDFontPicker.h */,
+				AD2AD6862570E2DC0041C3B0 /* XDFontPicker.m */,
+				AD2AD68C2570F7750041C3B0 /* XDFontSlider.h */,
+				AD2AD68D2570F7750041C3B0 /* XDFontSlider.m */,
+			);
+			path = XDFontPicker;
+			sourceTree = "<group>";
+		};
+		AD849EDC2566128A00705625 = {
+			isa = PBXGroup;
+			children = (
+				AD849EE72566128A00705625 /* XDRichEditor */,
+				AD849EE62566128A00705625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD849EE62566128A00705625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD849EE52566128A00705625 /* XDRichEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD849EE72566128A00705625 /* XDRichEditor */ = {
+			isa = PBXGroup;
+			children = (
+				AD849EE82566128A00705625 /* AppDelegate.h */,
+				AD849EE92566128A00705625 /* AppDelegate.m */,
+				AD849EEE2566128A00705625 /* XDViewController.h */,
+				AD849EEF2566128A00705625 /* XDViewController.m */,
+				AD84A25D256BAD4B00705625 /* XDOCEditorViewController.h */,
+				AD84A25E256BAD4B00705625 /* XDOCEditorViewController.m */,
+				AD84A249256B910800705625 /* Sources */,
+				AD849EF12566128A00705625 /* Main.storyboard */,
+				AD849EF42566128A00705625 /* Assets.xcassets */,
+				AD849EF62566128A00705625 /* LaunchScreen.storyboard */,
+				AD849EF92566128A00705625 /* Info.plist */,
+				AD849EFA2566128A00705625 /* main.m */,
+			);
+			path = XDRichEditor;
+			sourceTree = "<group>";
+		};
+		AD84A225256B907400705625 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AD84A24A256B914500705625 /* XDMacros.h */,
+				AD84A226256B907400705625 /* Category */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AD84A226256B907400705625 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AD84A24C256B920B00705625 /* UIColor+XDExtension.h */,
+				AD84A24D256B920B00705625 /* UIColor+XDExtension.m */,
+				AD84A251256B924400705625 /* UIImage+XDExtension.h */,
+				AD84A252256B924400705625 /* UIImage+XDExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AD84A22F256B909900705625 /* XDEditor */ = {
+			isa = PBXGroup;
+			children = (
+				AD84A23D256B909900705625 /* XDRichTextObject.h */,
+				AD84A23A256B909900705625 /* XDRichTextObject.m */,
+				AD84A232256B909900705625 /* XDRichTextEditor.h */,
+				AD84A23C256B909900705625 /* XDRichTextEditor.m */,
+				AD84A230256B909900705625 /* XDRichInputAccessoryView.h */,
+				AD84A23B256B909900705625 /* XDRichInputAccessoryView.m */,
+				AD84A239256B909900705625 /* XDHTMLParser.h */,
+				AD84A23E256B909900705625 /* XDHTMLParser.m */,
+				AD84A23F256B909900705625 /* XDRichEditorTextView.h */,
+				AD84A238256B909900705625 /* XDRichEditorTextView.m */,
+				AD84A231256B909900705625 /* XDRichEditor.bundle */,
+			);
+			path = XDEditor;
+			sourceTree = "<group>";
+		};
+		AD84A249256B910800705625 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AD84A225256B907400705625 /* Core */,
+				AD84A22F256B909900705625 /* XDEditor */,
+				AD2AD61E256E54B40041C3B0 /* XDColorPicker */,
+				AD2AD6802570E2360041C3B0 /* XDFontPicker */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD849EE42566128A00705625 /* XDRichEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD849EFE2566128A00705625 /* Build configuration list for PBXNativeTarget "XDRichEditor" */;
+			buildPhases = (
+				AD849EE12566128A00705625 /* Sources */,
+				AD849EE22566128A00705625 /* Frameworks */,
+				AD849EE32566128A00705625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDRichEditor;
+			productName = XDRichEditor;
+			productReference = AD849EE52566128A00705625 /* XDRichEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD849EDD2566128A00705625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XD;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					AD849EE42566128A00705625 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = AD849EE02566128A00705625 /* Build configuration list for PBXProject "XDRichEditor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD849EDC2566128A00705625;
+			productRefGroup = AD849EE62566128A00705625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD849EE42566128A00705625 /* XDRichEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD849EE32566128A00705625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD84A240256B909900705625 /* XDRichEditor.bundle in Resources */,
+				AD849EF82566128A00705625 /* LaunchScreen.storyboard in Resources */,
+				AD849EF52566128A00705625 /* Assets.xcassets in Resources */,
+				AD849EF32566128A00705625 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD849EE12566128A00705625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD84A25F256BAD4B00705625 /* XDOCEditorViewController.m in Sources */,
+				AD84A24E256B920B00705625 /* UIColor+XDExtension.m in Sources */,
+				AD849EF02566128A00705625 /* XDViewController.m in Sources */,
+				AD2AD670256F85580041C3B0 /* XDColorRectangleView.m in Sources */,
+				AD2AD67D2570AD5B0041C3B0 /* XDColorPickerViewController.m in Sources */,
+				AD2AD68E2570F7760041C3B0 /* XDFontSlider.m in Sources */,
+				AD84A243256B909900705625 /* XDRichEditorTextView.m in Sources */,
+				AD84A253256B924400705625 /* UIImage+XDExtension.m in Sources */,
+				AD2AD6832570E2570041C3B0 /* XDFontPickerViewController.m in Sources */,
+				AD849EEA2566128A00705625 /* AppDelegate.m in Sources */,
+				AD84A245256B909900705625 /* XDRichInputAccessoryView.m in Sources */,
+				AD2AD621256E54CE0041C3B0 /* XDColorPicker.m in Sources */,
+				AD2AD6872570E2DC0041C3B0 /* XDFontPicker.m in Sources */,
+				AD849EFB2566128A00705625 /* main.m in Sources */,
+				AD2AD679256F9D9F0041C3B0 /* XDColorSlider.m in Sources */,
+				AD84A244256B909900705625 /* XDRichTextObject.m in Sources */,
+				AD84A246256B909900705625 /* XDRichTextEditor.m in Sources */,
+				AD84A247256B909900705625 /* XDHTMLParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD849EF12566128A00705625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD849EF22566128A00705625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD849EF62566128A00705625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD849EF72566128A00705625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD849EFC2566128A00705625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD849EFD2566128A00705625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD849EFF2566128A00705625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56MY3ZN5V7;
+				INFOPLIST_FILE = XDRichEditor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoda.XDRichEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD849F002566128A00705625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56MY3ZN5V7;
+				INFOPLIST_FILE = XDRichEditor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoda.XDRichEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD849EE02566128A00705625 /* Build configuration list for PBXProject "XDRichEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD849EFC2566128A00705625 /* Debug */,
+				AD849EFD2566128A00705625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD849EFE2566128A00705625 /* Build configuration list for PBXNativeTarget "XDRichEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD849EFF2566128A00705625 /* Debug */,
+				AD849F002566128A00705625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD849EDD2566128A00705625 /* Project object */;
+}
